@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="balitsky.petproject.andersenhomework">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndersenHomework">
+        <activity android:name=".Bonus.StatisticActivity"></activity>
+        <activity android:name=".Bonus.VoronCounterActivity" />
+        <activity android:name=".SecondLesson.ImplicitIntents.ImplicitIntentsActivity" />
+        <activity android:name=".SecondLesson.ActivitiesAndIntent.SecondActivity" />
+        <activity android:name=".SecondLesson.ActivitiesAndIntent.FirstActivity" />
+        <activity android:name=".FirstLesson.ScrollingViews" />
+        <activity android:name=".FirstLesson.PartBActivityLinear" />
+        <activity android:name=".FirstLesson.PartBActivityRelative" />
+        <activity android:name=".FirstLesson.PartBActivity" />
+        <activity android:name=".FirstLesson.PartAActivity" />
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/first_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:onClick="openPartA"
+        android:text="@string/_1_2_part_a_my_first_interactive_ui"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/second_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:onClick="openPartB"
+        android:text="@string/_1_2_part_b_the_layout_editor"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/third_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:onClick="openPartBLinear"
+        android:text="@string/_1_2_part_b_with_linear_layout"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/fourth_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:onClick="openPartBRelative"
+        android:text="@string/_1_2_part_b_with_relative_layout"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:onClick="openScrollView"
+        android:text="@string/_1_3_text_and_scrolling_views"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:onClick="openActivitiesAndIntents"
+        android:text="@string/_2_1_activities_and_intents"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:onClick="openImplicitIntents"
+        android:text="@string/implicit_intents"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="openVoronCounter"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/bonus" />
+</LinearLayout>
